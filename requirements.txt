@@ -31,3 +31,5 @@ tiktoken
 python-dotenv
 # Logging / debugging
 loguru
+#Keyword seaching
+rank_bm25
