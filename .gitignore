@@ -1,0 +1,66 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Data files (optional – if large or sensitive)
+data/*
+!data/.gitkeep
+
+# Vector DB / embeddings (very important to ignore)
+vector_store/*
+!vector_store/.gitkeep
+
+# FAISS index files
+*.faiss
+*.pkl
+
+# Chroma DB
+chroma/
+chromadb/
+
+# Uploaded documents
+uploads/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# SQLite DB (optional)
+*.db
+*.sqlite3

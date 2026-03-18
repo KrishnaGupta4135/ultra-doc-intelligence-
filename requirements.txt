@@ -1,0 +1,33 @@
+# Backend
+fastapi
+uvicorn
+# File handling
+python-multipart
+pypdf
+pdfplumber
+python-docx
+# RAG + Embeddings
+langchain
+langchain-community
+langchain-core
+langchain-openai
+# Vector DB
+faiss-cpu
+chromadb
+# LLM
+openai
+groq
+# Utilities
+tqdm
+numpy
+pandas
+# Frontend
+streamlit
+# JSON + validation
+pydantic
+# better text splitting
+tiktoken
+# env management
+python-dotenv
+# Logging / debugging
+loguru
