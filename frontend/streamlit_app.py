@@ -1,8 +1,11 @@
 import streamlit as st
 import requests
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 # ---------------- CONFIG ----------------
-API_BASE = "http://127.0.0.1:8000/api/v1"
+API_BASE = os.getenv("API_BASE")
 
 st.set_page_config(page_title="Ultra Doc AI", layout="wide")
 
