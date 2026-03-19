@@ -11,8 +11,3 @@ app.include_router(extract.router, prefix="/api/v1", tags=["Extract"])
 @app.get("/")
 def root():
     return {"message": "API is running"}
-
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=4135, reload=True)
